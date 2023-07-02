@@ -1,0 +1,43 @@
+section{
+    
+        
+    margin: auto;
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;   
+
+}
+.conoce p{
+    display: flex;
+    justify-content: center;
+    
+   
+}
+
+section h2{
+    
+    
+    color: #A84813;
+   
+    margin: 60px 0px;
+    text-align: left;
+
+}
+ section .marco{
+    
+
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding-left: 10px;
+
+ }
+ section .marco img{
+  
+    width: 80%;
+    height: 95%;
+ 
+    
+
+}

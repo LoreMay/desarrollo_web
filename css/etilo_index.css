@@ -1,0 +1,161 @@
+:root{
+
+    --cafe: #A84813;
+    --amarillo: #F18816;
+    --blanco: #FFFFFF;
+}
+   
+.fondo{
+    background-color: #A84813;
+    background-image: url(../ima_pricipales/fondo_con_pan.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+} 
+.fondo{
+        
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: flex-end;
+    padding-right: 50px;
+    
+}
+.fondo h1{
+   font-size: 4rem;
+   text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+   padding-left: 500px;
+   padding-top: 50px;
+   text-align: center;
+}
+.fondo h3{
+    padding-right: 70px;
+    font-size: 2rem;
+}
+
+.fondo li{
+    padding-right: 150px;
+    list-style: none;
+    align-items: center;
+    font-size: 1rem;
+    
+    
+ }
+
+
+.fondo li a{
+        
+    color:white;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    
+        
+    padding: 15px;
+    align-items: center;
+    text-decoration: none;
+        
+    
+}
+.fondo li a:focus{
+    background-color: white;
+    
+    box-shadow: 0px 5px 5px rgb(0, 0, 0);
+}
+    
+.fondo li :hover{
+    background-color: #F18816;
+    border-radius: 10px;
+    color: white;
+    transition: 2s;
+        
+        
+        
+    box-shadow: 0px 5px 5px rgb(0, 0, 0);
+         
+}
+
+
+
+
+ /* Por debajo de 768px */
+  @media screen and (max-width: 768px){
+    .fondo{
+        justify-content: space-evenly;
+    
+    }
+    .fondo h1{
+        
+        font-size: 50px;
+        padding-left:  350px;
+        
+        padding-right: 0px;
+        display: flex;
+        
+    }
+    .fondo h3{
+        font-size: 24px;
+        margin-left: 50px;
+        padding: 0px;
+        padding-right: 50px;
+    
+  
+    
+    }
+    .fondo li{
+        font-size: 15px;
+        padding-right: 80px;
+        padding-bottom: 50px;
+        
+    } 
+}
+
+
+
+ /* Por debajo de 425px */
+ @media screen and (max-width: 425px){
+    .fondo{
+        background-position: left 5% top 30%;
+        display: flex;
+        padding: 10px;
+        padding-top: 0;
+        align-items: center;
+        justify-content: flex-start;
+        height: 85vh;
+    }
+    .fondo h1{
+        padding: 0px;
+        padding-top: 30px;
+        align-items: center;
+        text-align: center;
+        font-size:32px;
+        text-shadow: 10px 3px 10px #000000b9;
+        
+        
+    }
+    .fondo h3{
+    font-size:19px;
+    
+    align-items: center;
+    padding-top: 200px;
+    color: white;
+    text-shadow: 5px 3px 7px black;
+    
+    }
+    .fondo li{
+        font-size:15px;
+        
+        padding-right: 0px;
+        }
+    }
+    
+    
+    
+
+    
+  

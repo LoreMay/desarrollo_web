@@ -1,0 +1,15 @@
+:root{
+
+    --cafe: #A84813;
+    --amarillo: #F18816;
+    --blanco: #FFFFFF;
+
+}
+
+.contacto{
+    /*background-image: url(../photos/fondos/dos.jpg);*/
+    background-color: var(--amarillo);
+    color: white;
+    background-attachment: fixed;
+}
+
